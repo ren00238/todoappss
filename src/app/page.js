@@ -2,7 +2,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 // 👈 パスを修正しました
-import { supabase } from '../lib/supabaseClient'; 
+import { supabase } from './lib/supabaseClient';
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
