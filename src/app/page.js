@@ -1,8 +1,8 @@
 // app/page.js
 "use client"
 import { useState, useEffect } from 'react';
-// 👈 ここが相対パスに修正されています
-import { supabase } from '../../lib/supabaseClient'; 
+// 👈 パスを修正しました
+import { supabase } from '../lib/supabaseClient'; 
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
